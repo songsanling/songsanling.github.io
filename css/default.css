@@ -1,0 +1,100 @@
+/* todo font */
+
+div#container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+p#site-title {
+    color: rgb(51, 51, 51);
+    text-align: left;
+    font-size: 30px;
+}
+
+div#footer {
+    border-top-color: rgb(170, 170, 170);
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 60px;
+}
+
+/* ------------------------------------------------------------------- */
+
+/*
+.clearfix {
+    clear:both;  /* affect float, and height calculation. comment it out to see its effect* /
+}
+
+html {
+
+}
+
+body {
+    background: url(../images/bg.png) repeat-x;
+    background-color: #dedddf;
+    text-align: center;
+    color: #444;
+    font-family: Helvetica, arial, freesans, clean, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+div#header {
+    position: relative;
+    height: 82px;
+    width: 928px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+p#site-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 800;
+    color: #dfdfdf;
+}
+
+p#site-subtitle {
+    position: absolute;
+    top: 26px;
+    left: 18px;
+    margin: 0;
+    padding: 0;
+    font-size: 9px;
+    font-weight: 300;
+    font-style: italic;
+    color: #dfdfdf;
+}
+
+div#nav-search {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    float: right;
+    margin: 40px 0 0;
+}
+
+ul#nav {
+    margin-right: 266px;
+}
+
+ul#nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+ul#nav a {
+    color: #dfdfdf;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+div#footer {
+    margin-top: 18px;
+    border-top: 1px solid #838B83;
+    color: #aaa;
+    font-size: 8px;
+    font-style: italic;
+}
+*/

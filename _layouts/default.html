@@ -7,9 +7,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!-- TODO: delete un-needed css -->
     <link rel="stylesheet" href="../css/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="../css/index.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="../css/post.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="../css/tags.css" type="text/css" media="screen" />
+    <!--<link rel="stylesheet" href="../css/index.css" type="text/css" media="screen" /> -->
+    <!--<link rel="stylesheet" href="../css/post.css" type="text/css" media="screen" /> -->
+    <!--<link rel="stylesheet" href="../css/tags.css" type="text/css" media="screen" /> -->
     
     <!-- TODO: <link rel="icon" type="image/x-icon" href="favicon.ico" /> -->
     
@@ -31,9 +31,10 @@
 
 
 <body>
+    <div id="container">
 <div id="header">
-    <p id="site-title">TODO: title, sanling's personal site</p>
-    <p id="site-subtitle">TODO: other text...</p>
+    <p id="site-title"><a href="/index.html">TODO: title, sanling's personal site</a></p>
+    <!-- <p id="site-subtitle">TODO: other text...</p> -->
     <div id="nav-search">
     <ul id="nav">
         <li><a href="/index.html">HOME</a></li>
@@ -41,6 +42,9 @@
         <li><a href="/affiliations.html">AFFILIATIONS</a></li>
     </ul>
     </div> 
+    <div id="banner">
+        <div id="banner-img"></div>
+    </div>
 </div> 
 
     {{ content }}
@@ -49,6 +53,7 @@
 <div id="footer">
     <p> Powered by Github and Jekyll</p>
 </div> <!-- footer -->
-  
+
+</div> <!-- container -->
 </body>
 </html>
