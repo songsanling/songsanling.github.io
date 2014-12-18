@@ -56,7 +56,7 @@ div#banner {
 }
 
 div#banner-img {
-    background: url(images/banner-img.png) no-repeat;
+    background: url(/images/banner-img.png) no-repeat;
     height: 221px;
     margin: 0 auto;
     width: 930px;
