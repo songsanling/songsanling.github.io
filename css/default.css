@@ -1,4 +1,3 @@
-/* todo font */
 
 div#container {
     font-family: 'Lucida Sans', Arial, Helvetica, sans-serif;
@@ -38,12 +37,30 @@ ul#nav li {
     list-style-type: none;
     float: left;
     margin-right: 20px;
+    margin-left: 25px;
+    margin-top: 8px;
 }
 
 ul#nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 12px;
+}
+
+div#banner {
+    padding: 8px;
+    background-color: rgb(247, 247, 247);
+    margin-top: 8px;
+    height: 231px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+div#banner-img {
+    background: url(images/banner-img.png) no-repeat;
+    height: 221px;
+    margin: 0 auto;
+    width: 930px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 div.main-content {
@@ -87,82 +104,9 @@ div#footer {
     text-align: right;
 }
 
-/* ------------------------------------------------------------------- */
-
-/*
-.clearfix {
-    clear:both;  /* affect float, and height calculation. comment it out to see its effect* /
-}
-
-html {
-
-}
-
-body {
-    background: url(../images/bg.png) repeat-x;
-    background-color: #dedddf;
-    text-align: center;
-    color: #444;
-    font-family: Helvetica, arial, freesans, clean, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
-}
-
-div#header {
-    position: relative;
-    height: 82px;
-    width: 928px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-}
-
-p#site-title {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
-    font-weight: 800;
-    color: #dfdfdf;
-}
-
-p#site-subtitle {
-    position: absolute;
-    top: 26px;
-    left: 18px;
-    margin: 0;
-    padding: 0;
-    font-size: 9px;
-    font-weight: 300;
-    font-style: italic;
-    color: #dfdfdf;
-}
-
-div#nav-search {
-    position: absolute;
-    bottom: 10px;
-    right: 0px;
-    float: right;
-    margin: 40px 0 0;
-}
-
-ul#nav {
-    margin-right: 266px;
-}
-
-ul#nav li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-ul#nav a {
-    color: #dfdfdf;
+/* --- publication page --- */
+div#pub-page a {
     text-decoration: none;
-    font-size: 14px;
+    color: rgb(51,51,51);
 }
 
-div#footer {
-    margin-top: 18px;
-    border-top: 1px solid #838B83;
-    color: #aaa;
-    font-size: 8px;
-    font-style: italic;
-}
-*/
