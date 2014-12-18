@@ -39,6 +39,8 @@ ul#nav li {
     margin-right: 20px;
     margin-left: 25px;
     margin-top: 8px;
+    background: url(/images/active-nav.png) bottom center no-repeat;
+    height: 32px;
 }
 
 ul#nav a {
