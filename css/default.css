@@ -55,13 +55,14 @@ div#banner {
     margin-top: 8px;
     height: 231px;
     border-radius: 8px 8px 8px 8px;
+    box-sizing: border-box;
 }
 
 div#banner-img {
     background: url(/images/banner-img.png) no-repeat;
     height: 221px;
     margin: 0 auto;
-    width: 930px;
+    width: 781px;
     border-radius: 8px 8px 8px 8px;
 }
 
